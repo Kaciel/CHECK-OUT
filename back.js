@@ -1,4 +1,4 @@
-const mp = new MercadoPago('YOUR_PUBLIC_KEY');
+const mp = new MercadoPago('APP_USR-7d376407-877c-4050-b801-7bdae8faa02e');
 const bricksBuilder = mp.bricks();
 
 payment.create({ body: {
