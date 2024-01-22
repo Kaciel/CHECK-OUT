@@ -7,8 +7,10 @@
   <div id="paymentBrick_container">
   </div>
   <script>
-  const mp = new MercadoPago('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', {
-    locale: 'pt'
+  
+const mp = new MercadoPago('YOUR_PUBLIC_KEY');
+const bricksBuilder = mp.bricks();
+
   });
   const bricksBuilder = mp.bricks();
     const renderPaymentBrick = async (bricksBuilder) => {
